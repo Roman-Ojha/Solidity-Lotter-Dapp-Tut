@@ -2,3 +2,22 @@
     -> Deployment of smart contract on Ethereum Blockchain
     -> Role of MetaMask
     -> Role of Test Network
+
+*) Role Involved:
+    -> Manager
+    -> Participants
+
+*) Algorithm:
+    -> Participants needs to be at least >= 3
+    -> If Participants are baying lottery with 2 ether then they have to send 2 ether into smart contract
+    -> Manager will manage all the process
+    -> if Participants are = 3
+        -> Total ether = 3 * 2 = 6
+    -> we will select randomly and that Participants will will 6 ether
+
+*) Points ot note:
+    -> Participant must have wallet.
+    -> A Participant can transfer ether more than one time but the transferred ether must be 2 ether.
+    -> As the participant will transfer ether its address will be registered.
+    -> Manager will have full control over the lottery.
+    -> The contract will be reset one a round is completed.
