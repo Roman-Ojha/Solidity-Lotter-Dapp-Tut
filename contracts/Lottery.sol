@@ -50,5 +50,7 @@ contract Lottery {
         winner = participants[index];
         winner.transfer(getBalance());
         // here we will transfer all the contract balance to winner
+        participants = new address payable[](0);
+        // reseting participants after selecting winner
     }
 }
