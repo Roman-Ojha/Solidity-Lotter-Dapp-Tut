@@ -1,0 +1,4 @@
+*) What you will learn?
+    -> Deployment of smart contract on Ethereum Blockchain
+    -> Role of MetaMask
+    -> Role of Test Network
